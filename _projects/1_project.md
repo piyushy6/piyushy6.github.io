@@ -2,7 +2,7 @@
 layout: page
 title: TrailGuard AI
 description: 2020-Present
-img: assets/img/tg.jpg
+img: assets/img/tg1.jpg
 importance: 1
 category: work
 #related_publications: einstein1956investigations, einstein1950meaning
