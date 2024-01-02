@@ -1,80 +1,104 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Mobile Air Quality Monitoring
+description: 2020
+img: assets/img/car.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I worked as a Researcher with <a href="https://www.ise.fraunhofer.de/en/business-areas/photovoltaics/iii-v-and-concentrator-photovoltaics.html" target="_blank">Dr. Pawan Gupta</a> to evaluate the efficacy of low-cost air quality sensor as a mobile platform to collect PM-2.5 data in urban areas. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<span style="font-size: 17px;"><b>Problem :</b></span>
+The highly accurate pollution monitoring sensors installed by CPCB in urban cities costs upard of Rs. 1 crore and are static in nature. So, it becomes tough to accurately detect the soruces of pollution in an urban areas.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<span style="font-size: 17px;"><b>Solution :</b></span>
+By using cars as a mobile monitoring platform and integrating low-cost air quality sensors on it, it is possible to do spatio-tempotal sampling of PM-2.5 levels, to more accurately detect the sources of pollution in an urban area.
 
-<div class="row">
+<span style="font-size: 17px;"><b>Contribution :</b></span>
+
+- For our study, we used Diwali festival as the occasion to collect data with our mobile moitoring platform. We were focused and collected data with our mobile platform, pre, during and post fire cracker burning activities during Diwali, to effectively monitor the variation and impact of fire crackers on the air quality of Jaipur city.
+
+- For making the sensor fusion module, we used a Raspberry Pi that was acting as central unit. Both Purple air (Plantower PMS5003) and Alphasense OPC-R1 sensors were conncted to the Raspberry Pi and sending data at every 5 to 10 seconds interval. Similarly as GPS was storing location and date time on the Raspberry Pi. There was a script running that combing and mapping PM-2.5 data from the two sensor with datetime, location from GPS module. Later we plotted this data using matplotlib on a map of Jaipur city.
+
+- The sensor module was housed inside a plastic mechanical enclosure and the PM-2.5 sensors were exposed to the air. 
+
+<div class="row"> 
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/car-diwali.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Sensor-diwali.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+
+- After collecting the data for a week period, we observed significantly lower PM2.5 in Jaipur during 2020 Diwali compared to previous years due to favourable weather conditions and firecracker ban.
+
+<div class="row"> 
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/data-stored-rpi.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/mobile-monitoring-map.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+
+- With mobile air quality monitoring, location of a pollution hotspot was also identified in Jaipur city.
+
+<div class="row"> 
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Hotspot.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/spatio-temporal-variation.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sensor-valdiation.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
+
+- We also studied long-term (2000–2020) aerosol optical depth of Jaipur city and Observed a 29% increase in aerosol optical depth of Jaipur, but it was found to be significantly
+lower than Delhi.
+
+- We also obsered an increase in aerosol optical depth and PM2.5 due to crop residue burning during Diwali week in Jaipur.
+
+<div class="row"> 
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/20yr-AOD.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Stubble-AOD.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<span style="font-size: 17px;"><b>Project Supervisor :</b></span>
+<a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Pawan Gupta</a> 
+ <br>
+
+<a href="assets/pdf/example_pdf.pdf" target="_blank">Mobile Monitoring Paper</a>
+
+<span style="font-size: 17px;"><b>Github Script :</b></span>
+<a href="https://drive.google.com/drive/u/4/folders/1yQTbllgLPr3c9V7HNQWFJo04lzmBBcMy" target="_blank"> Github Repo Link</a> 
+ <br>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

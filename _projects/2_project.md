@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Solar Powered UAV for Remote Sensing
+description: 2019-2020
+img: assets/img/stardust.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
+
+INSPIRATION ETH Z AtlantikSolar - whatwas my inspiration, where I reached, compare photos...
+
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

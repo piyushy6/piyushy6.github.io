@@ -1,81 +1,84 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Farm Fire Monitoring
+description: 2020
+img: assets/img/drone-stubble-burning.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I worked as a Researcher with <a href="https://www.ise.fraunhofer.de/en/business-areas/photovoltaics/iii-v-and-concentrator-photovoltaics.html" target="_blank">Dr. Pawan Gupta</a> to evaluate the impact of Stubble Burning on PM-2.5 levels. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<span style="font-size: 17px;"><b>Problem :</b></span>
+Farmers in the state of Punjab and Haryana burn the stubble and this bruning leads to high pollution levels from October to January season in Northern India. Currently only Satellite data is used to monitor these farm fires, but this Satellite data is collected only 2 times during the day, thus limiting its use.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<span style="font-size: 17px;"><b>Solution :</b></span>
+If authorities have more real-time data on Stubble bunring and its sites, they can take much more effective action to limit its spread and control it.
 
-<div class="row">
+<span style="font-size: 17px;"><b>Contribution :</b></span>
+
+- During our study, for collecting the PM-2.5 data I integrated low-cost Purple air (Plantower PMS5003) and Alphasense OPC-R1 sensors on a Phantom 4 drone, and flew the drone over a farm fire site that was happening in Karnal district in Haryana, India. 
+
+<div class="row"> 
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Drone-Sensor-Fire-1.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Stubble-Drone-Sensors.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Drone-Sensor-Fire.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
+
+- We observed significant change in PM-2.5 values before, during and after the fire, with a clear spike in PM-2.5 values observed during the fire. We also tried to compare our results from the sensor integrated on drone to the data taken by the Satellite at 1:30 pm. 
+
+<div class="row"> 
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Farm_Pre-Fire.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Farm_During-Fire.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Farm_Post-Fire.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<div class="row"> 
 
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Farm_Site.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Stubble-Data.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
+- Similarly we also observed the impact of Farm fire on PM-2.5 values in rural areas by doing mobile sensing with car and clearly found spike in PM-2.5 values near fire sites. We also did mobile sensing in rural area with negligible farm fires, and interestingly found that rural areas where farm fires are very frequent, had significantly higher PM-2.5 concentrations, thus showing impact of farm fires in rural areas.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<span style="font-size: 17px;"><b>Project Supervisor :</b></span>
+<a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Pawan Gupta</a> 
+ <br>
+
+<a href="assets/pdf/example_pdf.pdf" target="_blank">Download Fraunhofer ISE Internship Details</a>
+
+<span style="font-size: 17px;"><b>Drone Flight :</b></span>
+<a href="https://drive.google.com/drive/u/4/folders/1yQTbllgLPr3c9V7HNQWFJo04lzmBBcMy" target="_blank"> Live Drone Experiment Video</a> 
+ <br>
+
+
+
