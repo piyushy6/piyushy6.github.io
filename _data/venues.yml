@@ -3,4 +3,11 @@
   color: "#00369f"
 
 "PhysRev":
-  url: https://journals.aps.org/
+  url: https://ieeexplore.ieee.org/document/9198487
+
+"IEEE":
+  url: https://ieeexplore.ieee.org/document/9198487
+
+"BioScience":
+  url: https://doi.org/10.1093/biosci/biad076
+
