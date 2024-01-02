@@ -19,8 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography hereXX. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div style="text-align: justify;">
+Piyush Yadav is a Conservation Technology Fellow at RESOLVE, where he focuses on developing and implementing new technologies for wildlife protection. Piyush co-developed <a href="https://www.resolve.ngo/trailguard.htm" target="_blank">TrailGuard AI</a>, an AI-Powered Camera used for Wildlife Conservation. TrailGuard won the <a href="https://time.com/collection/best-inventions-2023/6327141/trailguard-ai/" target="_blank">Time's Invention of the year 2023</a>. Piyush has been featured in the award winning <a href="https://edition.cnn.com/videos/tv/2023/11/13/ai-camera-tiger-india-hnk-spc.cnn" target="_blank"> CNN documentary, Mission Tiger</a> and in <a href="https://www.thehindu.com/sci-tech/energy-and-environment/ai-cameras-to-curb-poaching/article67315766.ece" target="_blank">The Hindu</a>, for his work on TrailGuard AI which led to the arrest of poachers in Dudhwa Tiger Reserve of India. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+    
+Piyush completed his bachelor’s degree in electronics & communication engineering from Delhi Technological University in 2020. He has previously worked on solar-powered UAV, high-efficiency solar cells, and low-cost mobile air quality monitoring methods. Piyush is deeply passionate about deep tech solutions and using them to solve envrionmental challenges our world faces.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+</div>
