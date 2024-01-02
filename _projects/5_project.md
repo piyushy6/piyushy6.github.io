@@ -1,6 +1,6 @@
 ---
 layout: page
-title: High Efficiency Solar cells 
+title: High-Efficiency Solar cells 
 description: 2018-2019
 img: assets/img/GaAs.jpg
 importance: 5
@@ -40,13 +40,13 @@ During my internship, I primarily worked for studying methods that might help in
 - I worked on electrochemical deposition of Ni/Cu contacts on the very thin solar cell layer that is generated after ELO process. This contact deposition is done to make the μm thin solar cell layer stable and use the contacts for further characterisation. 
 
 <div class="row"> 
-
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Electroplating_Process.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Quickcell.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Eletroplating Process.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
 
 </div>
 <div class="caption">
@@ -58,6 +58,10 @@ During my internship, I primarily worked for studying methods that might help in
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/GaAs.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/IMG_5376.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+   
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.

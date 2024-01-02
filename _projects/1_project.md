@@ -2,7 +2,7 @@
 layout: page
 title: AI-Powered Real-Time Camera 
 description: 2020-Present
-img: assets/img/tg1.jpg
+img: assets/img/tg.jpg
 importance: 1
 category: work
 #related_publications: einstein1956investigations, einstein1950meaning
