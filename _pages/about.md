@@ -6,12 +6,12 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg 
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p style=" font-size: 13px;white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m interested in : </p>
+    <p style=" font-size: 13px;white-space: nowrap;">Embedded systems|Hardware|Edge AI</p>
+    <p style=" font-size: 13px;">Email:piyush.dcedtu[at]gmail.com</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
