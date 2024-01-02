@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TrailGuard AI
+title: AI-Powered Real-Time Camera 
 description: 2020-Present
 img: assets/img/tg1.jpg
 importance: 1
