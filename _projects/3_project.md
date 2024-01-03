@@ -74,7 +74,7 @@ If authorities have more real-time data on Stubble bunring and its sites, they c
 <a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Pawan Gupta</a> 
  <br>
 
-<a href="assets/pdf/example_pdf.pdf" target="_blank">Download Fraunhofer ISE Internship Details</a>
+<a href="assets/pdf/example_pdf.pdf" target="_blank">Crop Burning pdf</a>
 
 <span style="font-size: 17px;"><b>Drone Flight :</b></span>
 <a href="https://drive.google.com/drive/u/4/folders/1yQTbllgLPr3c9V7HNQWFJo04lzmBBcMy" target="_blank"> Live Drone Experiment Video</a> 
