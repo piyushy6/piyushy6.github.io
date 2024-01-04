@@ -219,4 +219,4 @@ Various flight tests of the UAV were successfully conducted at around 30 meters 
 PM-2.5 data collected by UAV during test flights. 3-dimensional representation of PM-2.5 data and the corresponding Latitude - Longitude
 </div>
 
-Note : This work happended during peak Covid wave in 2020, so I had to leave the testing in between due to lockdown. But this dream still remains, and I will again start work on this one day!
+Note : This work happended during peak Covid wave in 2020, so I had to leave the testing in between due to lockdown. But this dream still remains, and I will again start work on this one day!!
