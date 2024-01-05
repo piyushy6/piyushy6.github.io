@@ -35,7 +35,7 @@ Solar technology in tandem with batteries has enormous potential for powering mo
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    EPS frame with carbon spars, servos, motors and controller.
 </div>
 
 <div class="row"> 
@@ -52,7 +52,7 @@ Solar technology in tandem with batteries has enormous potential for powering mo
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left and middle, the damaged model after first flight tests. Right, new design with weight reduction.
 </div>
 
 <div class="row"> 
@@ -69,7 +69,7 @@ Solar technology in tandem with batteries has enormous potential for powering mo
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+ The improved frame design with reduced weight. The yellow sheet here simulates the weight and the impact of the solar panels on the design.
 </div>
 
 <div class="row"> 
@@ -82,8 +82,12 @@ Solar technology in tandem with batteries has enormous potential for powering mo
     
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Successful flight test.
 </div>
+
+<span style="font-size: 17px;"><b>Testing :</b></span>
+<a href="https://gipo.ntu.edu.tw/en/member/faculty/Ching-Fuh-Lin-41625297" target="_blank"> Flight Test Video</a> 
+ <br>
 
 
 <div class="row"> 
@@ -100,33 +104,34 @@ Solar technology in tandem with batteries has enormous potential for powering mo
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, a 6 inch solar cell put inside the laser cut machine. Middle, solar cell cut into smaller parts. Right, a solar panel for one wing made by connecting 2 inch solar cells together.
 </div>
 
 <div class="row"> 
 
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Solar Cell 14s5p.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/IMG_2714.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/IMG_2538.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Solar Cell 14s5p.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, solar cell connection design (14s5p). Middle and left, solar panel integrated on the VTOL UAV frame.
 </div>
+
+Note : Due to extreme weather conditions in Taipei during December and January period, we could not flight test the design with solar panels integrated on it. The yellow sheet on the frame weighed same as the solar panels, and we were successfully able to fly the system with yellow sheet.
 
 <span style="font-size: 17px;"><b>Project Supervisor :</b></span>
 <a href="https://gipo.ntu.edu.tw/en/member/faculty/Ching-Fuh-Lin-41625297" target="_blank"> Prof. Chingh-Fuh Lin</a> 
  <br>
 
-<a href="assets/pdf/example_pdf.pdf" target="_blank">Drone Flying Google Drive Video</a>
-
-<a href="/assets/pdf/fise_lor.pdf" target="_blank">Download NTU LOR</a>
-
+<span style="font-size: 17px;"><b>Download :</b></span>
+<a href="https://gipo.ntu.edu.tw/en/member/faculty/Ching-Fuh-Lin-41625297" target="_blank"> LOR from Prof. Chingh-Fuh Lin</a> 
+ <br>
 
 
