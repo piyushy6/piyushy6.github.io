@@ -101,7 +101,7 @@ Prototype design development progress</div>
 <div class="row justify-content-sm-center">
 
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Solar-integration.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/solar-integration.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -219,4 +219,15 @@ Various flight tests of the UAV were successfully conducted at around 30 meters 
 PM-2.5 data collected by UAV during test flights. 3-dimensional representation of PM-2.5 data and the corresponding Latitude - Longitude
 </div>
 
-Note : This work happended during peak Covid wave in 2020, so I had to leave the testing in between due to lockdown. But this dream still remains, and I will again start work on this one day!!
+Note : This work happended during peak Covid wave in 2020, so I had to leave the testing in between due to lockdown. But this dream still remains, and I will again start work on this one day!
+
+<span style="font-size: 17px;"><b>Project Supervisor :</b></span>
+<a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Prof. S. Indu</a> 
+ <br>
+
+<a href="assets/pdf/example_pdf.pdf" target="_blank">Mobile Monitoring Paper</a>
+
+<span style="font-size: 17px;"><b>Github Script :</b></span>
+<a href="https://drive.google.com/drive/u/4/folders/1yQTbllgLPr3c9V7HNQWFJo04lzmBBcMy" target="_blank"> Github Repo Link</a> 
+ <br>
+
