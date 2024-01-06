@@ -34,7 +34,7 @@ During my internship, I primarily worked for studying methods that might help in
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, schematic diagram of the sample used for ELO method. Right, results of samples with different etching parameters taken with SAM.
 </div>
 
 - I worked on electrochemical deposition of Ni/Cu contacts on the very thin solar cell layer that is generated after ELO process. This contact deposition is done to make the μm thin solar cell layer stable and use the contacts for further characterisation. 
@@ -50,7 +50,7 @@ During my internship, I primarily worked for studying methods that might help in
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, sample dipped for electroplating process. Right, solar cell layer and substrate separated after ELO process.
 </div>
 
 - Experimented with different potential options for temporary substrates of solar cells, instead of conventional Ni/Cu plating. I found electrically conductive CU tape as a better alternative to the exisitng Ni/Cu plating in terms of both time and cost of processing. I experimented by pasting the tape on the solar cell layer material and annealing this sample. The results were comparable to Ni/Cu plating method. With this cheaper substrate, it became possible to quickly evalute new solar cells with different layer composition.
@@ -64,7 +64,7 @@ During my internship, I primarily worked for studying methods that might help in
    
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Conductive Cu tape sample after ELO process done on it.
 </div>
 
 

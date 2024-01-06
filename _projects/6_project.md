@@ -15,7 +15,7 @@ Drones with the capability of three dimensional motions, being able to easily fl
 <span style="font-size: 17px;"><b>Solution :</b></span>
 Solar technology in tandem with batteries has enormous potential for powering mobile devices. In this hybrid system, the use of solar is to keep on recharging the primary battery during day time. It is alothoguh very critical to keep the weight factor of the solar cells in mind.
 
-<span style="font-size: 17px;"><b>Contribution :</b></span>
+<span style="font-size: 17px;"><b>Development :</b></span>
 
 - Our aim was to make an EPS material frame, that is light weight and low-cost to perform rigorous testing with our design. Our wing area was approximately 167 square inches. We decided to laser cut a 6 by 6 inch solar cell into 2 by 2 inch solar cell. We could fit around 35 solar cells into each wing. 
 

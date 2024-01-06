@@ -15,7 +15,7 @@ Farmers in the state of Punjab and Haryana burn the stubble and this bruning lea
 <span style="font-size: 17px;"><b>Solution :</b></span>
 If authorities have more real-time data on Stubble bunring and its sites, they can take much more effective action to limit its spread and control it.
 
-<span style="font-size: 17px;"><b>Contribution :</b></span>
+<span style="font-size: 17px;"><b>1.) Drone Farm Fire Monitoring :</b></span>
 
 - During our study, for collecting the PM-2.5 data I integrated low-cost Purple air (Plantower PMS5003) and Alphasense OPC-R1 sensors on a Phantom 4 drone, and flew the drone over a farm fire site that was happening in Karnal district in Haryana, India. 
 
@@ -32,8 +32,7 @@ If authorities have more real-time data on Stubble bunring and its sites, they c
     </div>
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+Phantom 4 drone with Purple Air sensor suspended to it by a rope and flying over a farm fire site to collect data.</div>
 
 - We observed significant change in PM-2.5 values before, during and after the fire, with a clear spike in PM-2.5 values observed during the fire. We also tried to compare our results from the sensor integrated on drone to the data taken by the Satellite at 1:30 pm. 
 
@@ -50,7 +49,7 @@ If authorities have more real-time data on Stubble bunring and its sites, they c
     </div>
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, the farm site Pre-Fire. Middle, the farm site During-Fire. Right, the farm site Post-Fire.
 </div>
 
 <div class="row"> 
@@ -64,17 +63,65 @@ If authorities have more real-time data on Stubble bunring and its sites, they c
 
 </div>
 <div class="caption">
-    On the left, a road goes through a tunnel. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, the two farm sites used for the experiment. Right, PM2.5 variation with the fire progress (Pre, During and Post). A spike in PM2.5 is visible during the fire phase.
 </div>
 
-- Similarly we also observed the impact of Farm fire on PM-2.5 values in rural areas by doing mobile sensing with car and clearly found spike in PM-2.5 values near fire sites. We also did mobile sensing in rural area with negligible farm fires, and interestingly found that rural areas where farm fires are very frequent, had significantly higher PM-2.5 concentrations, thus showing impact of farm fires in rural areas.
+<span style="font-size: 17px;"><b>2.) Farm Fire Impact on Villages :</b></span>
 
+- The imapct of stubble burning on the air quality is significant in the nearby villages where stubble is burned. To get more data on this, I went across the villages in Karnal where stubble burning was happening and collected PM2.5 data by performing mobile sensing with car. The collected data in these rural areas clearly showed a significant spike in PM-2.5 values. 
+
+<div class="row"> 
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/farm1.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/farm3.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="row"> 
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/farm2.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/farm4.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+Some farm fire sites found while collecting the data.</div>
+
+<div class="row"> 
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rural_data2.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+Data collected by mobile sensing near stubble burning sites. Significant spike observed in PM2.5 values near the 3 different sites. 
+</div>
+
+- I also did mobile sensing in rural area with negligible farm fires, and interestingly found that rural areas where farm fires are very frequent, had significantly higher PM-2.5 concentrations, thus showing impact of farm fires in rural areas.
+
+<div class="row"> 
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rural_data1.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+Significantly lower PM2.5 values in rural area with less stubble burning on the right.
+</div>
 
 <span style="font-size: 17px;"><b>Project Supervisor :</b></span>
 <a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Pawan Gupta</a> 
  <br>
 
-<a href="assets/pdf/example_pdf.pdf" target="_blank">Crop Burning pdf</a>
+<a href="assets/pdf/Crop-Burning.pdf" target="_blank">Crop Burning pdf</a>
 
 <span style="font-size: 17px;"><b>Drone Flight :</b></span>
 <a href="https://drive.google.com/drive/u/4/folders/1yQTbllgLPr3c9V7HNQWFJo04lzmBBcMy" target="_blank"> Live Drone Experiment Video</a> 
