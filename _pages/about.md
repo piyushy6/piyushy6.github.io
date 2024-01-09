@@ -12,7 +12,8 @@ profile:
     <p style=" font-size: 13px;white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m interested in : </p>
     <p style=" font-size: 13px;white-space: nowrap;">Embedded systems|Hardware|Edge AI</p>
     <p style=" font-size: 13px;">Email:piyush.dcedtu[at]gmail.com</p>
-
+    <br>
+    <br>    <br>    <br>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
