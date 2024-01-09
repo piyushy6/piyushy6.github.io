@@ -137,4 +137,3 @@ Note : Due to extreme weather conditions in Taipei during December and January p
 <a href="https://gipo.ntu.edu.tw/en/member/faculty/Ching-Fuh-Lin-41625297" target="_blank"> LOR from Prof. Chingh-Fuh Lin</a> 
  <br>
 
-
