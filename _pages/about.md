@@ -14,6 +14,7 @@ profile:
     <p style=" font-size: 13px;">Email:piyush.dcedtu[at]gmail.com</p>
     <br>
     <br>    <br>    <br>
+    <p style=" font-size: 13px;">Email:piyush.dcedtu[at]gmail.com</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
