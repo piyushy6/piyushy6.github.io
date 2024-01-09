@@ -101,7 +101,7 @@ Prototype design development progress</div>
 <div class="row justify-content-sm-center">
 
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Solar-integration.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/solar-integration.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -223,6 +223,9 @@ Note : This work happended during peak Covid wave in 2020, so I had to leave the
 
 <span style="font-size: 17px;"><b>Project Supervisor :</b></span>
 <a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Prof. S. Indu</a> 
+ <br>
+
+<span style="font-size: 17px;"><b>Work Funded by : Delhi Technological University and SunPower Energy Company</b></span>
  <br>
 
 <a href="assets/pdf/example_pdf.pdf" target="_blank">Mobile Monitoring Paper</a>

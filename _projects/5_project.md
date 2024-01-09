@@ -73,6 +73,9 @@ During my internship, I primarily worked for studying methods that might help in
 <a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Frank Dimroth</a> 
  <br>
 
+<span style="font-size: 17px;"><b>Work Funded by : Fraunhofer ISE and Delhi Technological University's Alumni Network</b></span>
+ <br>
+
 <a href="assets/pdf/example_pdf.pdf" target="_blank">Download Fraunhofer ISE Internship Details</a>
 
 <a href="/assets/pdf/fise_lor.pdf" target="_blank">Download Fraunhofer ISE LOR</a>

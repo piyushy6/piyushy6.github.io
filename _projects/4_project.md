@@ -110,6 +110,9 @@ lower than Delhi.
 <a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Pawan Gupta</a> 
  <br>
 
+ <span style="font-size: 17px;"><b>Work Funded by : Dr. Pawan Gupta and Self Funded</b></span>
+ <br>
+
 <a href="assets/pdf/example_pdf.pdf" target="_blank">Mobile Monitoring Paper</a>
 
 <span style="font-size: 17px;"><b>Github Script :</b></span>

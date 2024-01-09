@@ -121,6 +121,9 @@ Significantly lower PM2.5 values in rural area with less stubble burning on the 
 <a href="https://www.ise.fraunhofer.de/en/about-us/staff-profiles/dimroth-frank.html" target="_blank"> Dr. Pawan Gupta</a> 
  <br>
 
+<span style="font-size: 17px;"><b>Work Funded by : Dr. Pawan Gupta and Self Funded</b></span>
+ <br>
+
 <a href="assets/pdf/Crop-Burning.pdf" target="_blank">Crop Burning pdf</a>
 
 <span style="font-size: 17px;"><b>Drone Flight :</b></span>

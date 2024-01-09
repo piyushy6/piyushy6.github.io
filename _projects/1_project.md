@@ -30,9 +30,10 @@ The battery-powered camera technology that is currently used for monitoring wild
     </div>
 </div>
 <div class="caption">
-Motor Simulation using E-Calc</div>
+Traditional battery-powered Camera Technology used for wildlife monitoring</div>
 
 I divided my work into few parts : Camera Technology R&D, Manufactuing, Server Setup (Tiger YOLOv5), Deployment in Remote Forest Areas and raising awareness among the Donors.
+
 
 <span style="font-size: 17px;"><b>1.) Camera Development : Technology R&D and Production :</b></span>
 
@@ -44,12 +45,20 @@ I divided my work into few parts : Camera Technology R&D, Manufactuing, Server S
     </div>
 </div>
 <div class="caption">
-Motor Simulation using E-Calc</div>
+Advantages of TrailGuard over Traditional battery-powered Camera technology</div>
 
 
 
 The Camera is divided into two parts, the Camera System and Communication System Part and both these parts are joined together with an M12 cable and communicating with each other via UART and GPIOs.
 
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Cam-Comms-blockdiagram.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Block Diagram of TrailGuard and its respective components</div>
 
 <span style="font-size: 16px;"><b>a.) Development of Camera unit System :</b></span>
 
@@ -58,14 +67,34 @@ The Camera is divided into two parts, the Camera System and Communication System
 - After capturing the image, Myriad X runs the AI model (developed by CVEDIA), if probability of the detected object is more than a threshold, the image is sent to the communication unit system via UART. After this camera goes back to sleep mode, waiting for next PIR trigger.
 
 
-Camera 2B to Camera 3B to Camera 4B PCB Image
+<div class="row justify-content-sm-center">
 
-Mech Enclosure also of 4B
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/camera_pcb.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+On the left, the first camera unit prototype with Myriad X. Right, camera unit protoype in optimized form. (Schematic and Layout files are proprietary)</div>
+
+
+
 
 <span style="font-size: 16px;"><b>b.) Development of Communication unit System to send data in real-time :</b></span>
 
 - The major components of the communication unit are, ESP32s3, SIM7600 Cellular Modem and Seeed Studio LoRa E5 module.
 - The communication unit is always in power down mode to preserve the battery. When any object of interest is detected on the camera unit side, the camera unit wakes up the communication unit and sends the image data to the ESP32 of the communication unit via UART. 
+
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ccu_pcb.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+On the left, the first communication unit prototype with SIM7600 and ESP32 devkit to test software and performace of SIM7600 modem in forest areas. Right, communication unit protoype pcb board with surface mount SIM7600 and ESP32. (Schematic and Layout files are proprietary)</div>
+
 
 <span style="font-size: 15px;"><b>Type 1.) Cellular Communication unit :</b></span>
 
@@ -79,16 +108,19 @@ Mech Enclosure also of 4B
 - The Gateway LoRa unit is in duty cycle recevier mode in order to conserve power. But after receiveing the first packet from Transmitter LoRa unit, the Gateway LoRa unit exits the duty cycle mode, and goes to constant receive mode till it receives the entire data.
 - After receiving the entire data from Transmitter LoRa unit, Gateway LoRa unit sends this data to the ESP32 via UART, which then sends it to server via the SIM7600 modem on it.
 
-(Note: The LoRa Communcation unit (TX and Gateway) is useful for areas that have no cellular connectivity. So the Camera unit with LoRa TX Communication unit can be placed inside the forest area with no network, and can send the data to the LoRa Gateway Communication unit, which is already placed in an area with good cellualr coverage, and can send data to the server end. The problem with this system was that LoRa is more suitable for Line of Sight transmissions, so after several experiments, we found this solution to be not so suitable for dense vegetation forest areas)
+(Note: The LoRa Communcation unit (TX and Gateway) is useful for areas that have no cellular connectivity. So the Camera unit with LoRa TX Communication unit can be placed inside the forest area with no network, and can send the data to the LoRa Gateway Communication unit, which is already placed in an area with good cellular coverage, and can send data to the server end. The problem with this system was that LoRa is more suitable for Line of Sight transmissions, so after several experiments, we found this solution to be not so suitable for dense vegetation forest areas. We decided to stick with Cellular Communication unit and strategically placing the cameras on the periphery of the parks)
 
 
-add field guide maps of lora and sim7600
-LoRa use cases (with Bike and Map images):
-SIM7600 old modem (blue) to CCUv2 (PCIE) to CCUv4 Image
-Mech Enclosure also of CCUv4
-Responsibility : Block Diagram, to breadboard, to Sch, to Layout, to testing to field installation.
-Datasheet of the Camera
-lens focusing at VVDN
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/camera-mech_enclosure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+Camera and communication unit inside mechancial enclosure designed with VVDN. </div>
+
 
 <span style="font-size: 16px;"><b>c.) Development of Cloud based Server :</b></span>
 
@@ -96,7 +128,18 @@ lens focusing at VVDN
 - MQTT Broker service was running on the server end, waiting to receive data from the camera end. 
 - The data received was converted into a jpeg image, ran through a Yolov5 model and based on the location and camera id, was sent to the respective end user. 
 - Yolov5 object detection model was used on the server end to remove any false positives. Yolov5 has 80 classes, so in order to detect tiger, the model was retrained using tiger images dataset, and performed fairly well.
+- The data was displayed in a centralized dashboard, where users can login and look for data based : location, date-time, species detected.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tg_dash.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tg_dash-1.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Dashboard to access the data from the camera based on location, date-time, species detected.</div>
 
 <span style="font-size: 17px;"><b>2.) Deployments :</b></span>
 
@@ -108,7 +151,7 @@ lens focusing at VVDN
     </div>
 </div>
 <div class="caption">
-Motor Simulation using E-Calc</div>
+Deployment of TrailGuard for field-trials in India.</div>
 
 - The deployment was done on the peripery of the parks, so any potential human intruder trying to enter the park can be caught in real-time or any wildlife coming out of the park can be detected before it enters the nearby villages.
 
@@ -119,7 +162,7 @@ Motor Simulation using E-Calc</div>
     </div>
 </div>
 <div class="caption">
-Motor Simulation using E-Calc</div>
+Working of the technology, from motion trigger to ultimately receiving the images in the control centre</div>
 
 
 
@@ -245,7 +288,9 @@ Motor Simulation using E-Calc</div>
 
 <span style="font-size: 17px;"><b>3.) Media Coverage of the Work and Technology :</b></span>
 
-<span style="font-size: 16px;"><b>Featured in the Award winning CNN Documentary : Mission Tiger</b></span>
+<span style="font-size: 16px;"><b>Featured in the Award winning CNN Documentary : Mission Tiger</b><br></span>
+<a href="https://edition.cnn.com/videos/tv/2023/11/13/ai-camera-tiger-india-hnk-spc.cnn" target="_blank"> (Documentary Link : CNN Mission Tiger)<br></a> 
+<a href="https://edition.cnn.com/world/india-tiger-conservation-trailguard-ai-camera-hnk-spc-intl/index.html" target="_blank"> (Article Link : CNN Mission Tiger)</a> 
 
 <div class="row justify-content-sm-center">
 
@@ -256,7 +301,8 @@ Motor Simulation using E-Calc</div>
 <div class="caption">
 </div>
 
-<span style="font-size: 16px;"><b>The Hindu Article : Arrest of Poachers in Dudhwa</b></span>
+<span style="font-size: 16px;"><b>The Hindu Article : Arrest of Poachers in Dudhwa</b><br></span>
+<a href="https://www.thehindu.com/sci-tech/energy-and-environment/ai-cameras-to-curb-poaching/article67315766.ece" target="_blank"> (Article Link : The Hindu)</a> 
 
 <div class="row justify-content-sm-center">
 
@@ -278,6 +324,18 @@ Motor Simulation using E-Calc</div>
 <div class="caption">
 </div>
 
+<span style="font-size: 17px;"><b>Work Funded by : </b></span>
+<span style="font-size: 16px;"><b>This entire work was funded by Mr. Vinod Khosla (Khosla Ventures). I had sent an email to Mr. Khosla for support and he gave me a $50k grant to start this work in India. After seeing the results from India, Mr. Khosla subsequently invested $600K to continue the work in India.</b></span>
+<a href="https://x.com/piyushy_/status/1703496060197363745?s=20" target="_blank"> (Tweet Link)</a> 
+
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/VK_tweet.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Repotsed by Mr. Khosla on X (Twitter)</div>
 
 Note : Currently this system is under production at VVDN in Delhi!
 

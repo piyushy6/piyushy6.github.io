@@ -130,6 +130,9 @@ Note : Due to extreme weather conditions in Taipei during December and January p
 <a href="https://gipo.ntu.edu.tw/en/member/faculty/Ching-Fuh-Lin-41625297" target="_blank"> Prof. Chingh-Fuh Lin</a> 
  <br>
 
+<span style="font-size: 17px;"><b>Work Funded by : National Taiwan University and Delhi Technological University</b></span>
+ <br>
+
 <span style="font-size: 17px;"><b>Download :</b></span>
 <a href="https://gipo.ntu.edu.tw/en/member/faculty/Ching-Fuh-Lin-41625297" target="_blank"> LOR from Prof. Chingh-Fuh Lin</a> 
  <br>
