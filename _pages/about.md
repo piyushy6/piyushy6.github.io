@@ -30,25 +30,22 @@ Piyush completed his bachelor’s degree in electronics & communication engineer
 </div>
 
 
-
 <div style="text-align: justify; line-height: 1.6;">
     <br>
     <p style=" font-size: 30px;">media coverage</p>
-    <p style="font-weight: bold; font-size: 15px;"> Dec 22, 2023&nbsp;&nbsp;<img src="assets/img/cnn.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image --><a href="https://edition.cnn.com/videos/tv/2023/12/21/mission-tiger-india-ai-camera-bardiya-national-park-spc-intl-hnk.cnn" target="_blank"> How AI is helping to protect humans and tigers</a><br></p>
-    <p style="font-weight: bold; font-size: 15px;"> Dec 14, 2023&nbsp;&nbsp;<img src="assets/img/cnn.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image --><a href="https://edition.cnn.com/world/india-tiger-conservation-trailguard-ai-camera-hnk-spc-intl/index.html" target="_blank"> In India, AI-enabled cameras are sending out tiger alerts in real time</a><br></p>
-    <p style="font-weight: bold; font-size: 15px;"> Oct 25, 2023&nbsp;&nbsp;&nbsp;<img src="assets/img/time_logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp;<a href="https://time.com/collection/best-inventions-2023/6327141/trailguard-ai/" target="_blank"> Time's Magazine Invention of the Year 2023</a><br></p>
-    <p style="font-weight: bold; font-size: 15px;"> Sep 16, 2023&nbsp;&nbsp;<img src="assets/img/1logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image --><a href="https://www.thehindu.com/sci-tech/energy-and-environment/ai-cameras-to-curb-poaching/article67315766.ece" target="_blank"> AI cameras to curb poaching in Madhya Pradesh</a><br></p>
+    <p style="font-weight: bold; font-size: 15px;"><img src="assets/img/cnn.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image --><a href="https://edition.cnn.com/videos/tv/2023/12/21/mission-tiger-india-ai-camera-bardiya-national-park-spc-intl-hnk.cnn" target="_blank"> How AI is helping to protect humans and tigers</a><br></p>
+    <p style="font-weight: bold; font-size: 15px;"> <img src="assets/img/cnn.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image --><a href="https://edition.cnn.com/world/india-tiger-conservation-trailguard-ai-camera-hnk-spc-intl/index.html" target="_blank"> In India, AI-enabled cameras are sending out tiger alerts in real time</a><br></p>
+    <p style="font-weight: bold; font-size: 15px;"><img src="assets/img/time_logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp;<a href="https://time.com/collection/best-inventions-2023/6327141/trailguard-ai/" target="_blank"> Time's Magazine Invention of the Year 2023</a><br></p>
+    <p style="font-weight: bold; font-size: 15px;"> <img src="assets/img/1logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image --><a href="https://www.thehindu.com/sci-tech/energy-and-environment/ai-cameras-to-curb-poaching/article67315766.ece" target="_blank"> AI cameras to curb poaching in Madhya Pradesh</a><br></p>
 
-  <p style="font-weight: bold; font-size: 15px;">
-      Sep 17, 2023&nbsp;&nbsp;<img src="assets/img/TOI_Logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image -->
+  <p style="font-weight: bold; font-size: 15px;"><img src="assets/img/TOI_Logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image -->
       <a href="assets/img/TOI-TG.jpg" target="_blank"> 
           AI-based camera alert system spotting tigers on prowl, sending images in 30 secs
       </a>    
       <br>
   </p>
 
-  <p style="font-weight: bold; font-size: 15px;">
-      Sep 17, 2023&nbsp;&nbsp;<img src="assets/img/1logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image -->
+  <p style="font-weight: bold; font-size: 15px;"><img src="assets/img/1logo.jpg" alt="Logo" style="width: 35px; height: 35px;">&nbsp; <!-- Logo Image -->
       <a href="assets/img/The Hindu Color Print.jpg" target="_blank"> 
           AI Cameras Gun for Poachers
       </a>
