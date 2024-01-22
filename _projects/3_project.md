@@ -33,7 +33,7 @@ Phantom 4 drone with Purple Air sensor suspended to it by a rope and flying over
 <div class="row"> 
 
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Farm_Fire.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/farm_fire.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
