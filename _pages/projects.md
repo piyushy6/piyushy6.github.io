@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-#description: A growing collection of your cool projects.
+description: My work over the past few years, where I dived deep into the technology development part ; worked with a very diverse set of people (belonging to the indigenous community to senior government officials to senior scientists) ; raised the funds to pursue these projects ; failed a lot but constantly tried to learn and improve along the way!
 nav: true
 nav_order: 2
 display_categories: [work]
